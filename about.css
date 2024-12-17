@@ -1,0 +1,314 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+.login-container {
+  width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-weight: 600;
+}
+li {
+  font-weight: 600;
+  display: flex;
+  font-size: 30px;
+}
+
+header {
+  background-color: plum;
+  padding: 1em;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav a {
+  color: #333;
+  text-decoration: none;
+}
+button {
+  border: 2px solid var(purple);
+  background: transparent;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+.about-section {
+  background-color: #fff;
+  padding: 2em;
+  text-align: center;
+}
+
+.about-section h1 {
+  color: #ffa07a;
+}
+
+.about-section p {
+  color: #666;
+}
+
+.team-section {
+  background-color: #fff;
+  padding: 2em;
+  text-align: center;
+}
+
+.team-section h1 {
+  color: #ffa07a;
+}
+
+.team-member {
+  display: inline-block;
+  margin: 20px;
+  width: 200px;
+}
+
+.team-member img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.team-member h2 {
+  color: #333;
+}
+
+.team-member p {
+  color: #666;
+}
+
+button {
+  background-color: #ffa07a;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff9900;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  clear: both;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 786px) {
+  body {
+    font-size: 16px;
+  }
+  .login-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  header {
+    background-color: plum;
+    padding: 1em;
+    text-align: center;
+  }
+  header {
+    padding: 0.5em;
+  }
+  button {
+    background-color: #ffa07a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  header nav ul {
+    flex-direction: column;
+  }
+
+  header nav ul li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .about-section {
+    padding: 1em;
+  }
+
+  .team-section {
+    padding: 1em;
+  }
+
+  .team-member {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+  }
+
+  .team-member img {
+    height: 200px;
+    width: 200px;
+  }
+  p {
+    font-weight: 600;
+    color: #ffa07a;
+  }
+
+  button {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  body {
+    font-size: 14px;
+  }
+  .login-container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+  }
+  header {
+    padding: 0.2em;
+  }
+  header nav ul {
+    flex-direction: column;
+  }
+  header nav ul li {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  .about-section {
+    padding: 0.5em;
+  }
+  .team-section {
+    padding: 0.5em;
+  }
+  .team-member {
+    display: block;
+    margin: 5px auto;
+    width: 80%;
+  }
+  .team-member img {
+    height: 150px;
+    width: 150px;
+  }
+  button {
+    padding: 3px 5px;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  body {
+    font-size: 16px;
+  }
+  .login-container {
+    width: 80%;
+    margin: 30px auto;
+    padding: 15px;
+  }
+  header {
+    padding: 0.5em;
+  }
+  header nav ul {
+    flex-direction: column;
+  }
+  header nav ul li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .about-section {
+    padding: 1em;
+  }
+  .team-section {
+    padding: 1em;
+  }
+  .team-member {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+  }
+  .team-member img {
+    height: 200px;
+    width: 200px;
+  }
+  button {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+}
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+  .login-container {
+    width: 70%;
+    margin: 40px auto;
+    padding: 20px;
+  }
+  header {
+    padding: 1em;
+  }
+  header nav ul {
+    flex-direction: row;
+  }
+  header nav ul li {
+    margin-right: 20px;
+  }
+  .about-section {
+    padding: 1.5em;
+  }
+  .team-section {
+    padding: 1.5em;
+  }
+  .team-member {
+    display: inline-block;
+    margin: 15px;
+    width: 200px;
+  }
+  .team-member img {
+    height: 250px;
+    width: 250px;
+  }
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+}

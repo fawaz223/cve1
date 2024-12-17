@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+.calculator-container {
+  width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+#course-grades {
+  margin-bottom: 20px;
+}
+
+#calculate-btn {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#calculate-btn:hover {
+  background-color: #3e8e41;
+}
+
+#result {
+  font-weight: bold;
+  color: #666;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 786px) {
+  .calculator-container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  label {
+    margin-bottom: 5px;
+  }
+
+  input,
+  select {
+    padding: 5px;
+    margin-bottom: 15px;
+  }
+
+  #course-grades {
+    margin-bottom: 15px;
+  }
+
+  #calculate-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+
+  #result {
+    font-size: 16px;
+  }
+}
